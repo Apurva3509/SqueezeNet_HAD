@@ -34,6 +34,7 @@ Members:
 ## Tasks:
 
 1. Harsh
+   
    Architecture study:
    - Optimizers
    - Kernels
@@ -41,12 +42,14 @@ Members:
    - Pooling startegies
    - HP Tuning
 
-2. Devika
+3. Devika
+   
    Dense - SParse - Dense (DSD)
    - Pruning techniques
    - sparse training techniques
    - sparsity accuracy tradeoff
    - quantization
   
-3. Apurva
+5. Apurva
+   
    Squeezenet Residual Connection Implementation
