@@ -1,4 +1,3 @@
-# SqueezeNet_HAD
 # EECS6699: Math for Deep Learning Project 
 
 ## Project Overview
