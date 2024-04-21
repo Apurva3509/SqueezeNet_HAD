@@ -31,3 +31,22 @@ Members:
 - Name: Apurva Patel, Devika Gumaste, Harsh Benahalkar
 - Email: {amp2365, dg3370, hb2776}@columbia.edu
 
+### Tasks:
+
+1. Harsh
+   Architecture study:
+   - Optimizers
+   - Kernels
+   - Activation functions
+   - Pooling startegies
+   - HP Tuning
+
+2. Devika
+   Dense - SParse - Dense (DSD)
+   - Pruning techniques
+   - sparse training techniques
+   - sparsity accuracy tradeoff
+   - quantization
+  
+3. Apurva
+   Squeezenet Residual Connection Implementation
