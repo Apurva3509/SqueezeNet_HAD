@@ -31,7 +31,7 @@ Members:
 - Name: Apurva Patel, Devika Gumaste, Harsh Benahalkar
 - Email: {amp2365, dg3370, hb2776}@columbia.edu
 
-### Tasks:
+## Tasks:
 
 1. Harsh
    Architecture study:
