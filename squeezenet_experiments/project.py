@@ -115,57 +115,57 @@ Experiments run
 
 # define the model
 
-model = models.build_model(num_classes, weights_path, "relu")
-model.to(device)
-optimizer = optim.Adam(model.parameters(), lr=0.001)
-run(model, optimizer, "adam", restarts=1, add_noise=False)
+# model = models.build_model(num_classes, weights_path, "relu")
+# model.to(device)
+# optimizer = optim.Adam(model.parameters(), lr=0.001)
+# run(model, optimizer, "adam", restarts=1, add_noise=False)
 
-model = models.build_model(num_classes, weights_path, "relu")
-model.to(device)
-optimizer = optim.SGD(model.parameters(), lr=0.001)
-run(model, optimizer, "sgd", restarts=1, add_noise=False)
+# model = models.build_model(num_classes, weights_path, "relu")
+# model.to(device)
+# optimizer = optim.SGD(model.parameters(), lr=0.001)
+# run(model, optimizer, "sgd", restarts=1, add_noise=False)
 
-model = models.build_model(num_classes, weights_path, "relu")
-model.to(device)
-optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9, weight_decay=5e-4)
-run(model, optimizer, "agd", restarts=1, add_noise=False)
+# model = models.build_model(num_classes, weights_path, "relu")
+# model.to(device)
+# optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9, weight_decay=5e-4)
+# run(model, optimizer, "agd", restarts=1, add_noise=False)
 
-model = models.build_model(num_classes, weights_path, "relu")
-model.to(device)
-optimizer = optim.SGD(model.parameters(), lr=0.001)
-run(model, optimizer, "pgd", restarts=1, add_noise=True)
+# model = models.build_model(num_classes, weights_path, "relu")
+# model.to(device)
+# optimizer = optim.SGD(model.parameters(), lr=0.001)
+# run(model, optimizer, "pgd", restarts=1, add_noise=True)
 
-model = models.build_model(num_classes, weights_path, "relu")
-model.to(device)
-optimizer = optim.SGD(model.parameters(), lr=0.001)
-run(model, optimizer, "sgdr", restarts=3, add_noise=False)
+# model = models.build_model(num_classes, weights_path, "relu")
+# model.to(device)
+# optimizer = optim.SGD(model.parameters(), lr=0.001)
+# run(model, optimizer, "sgdr", restarts=3, add_noise=False)
 
-# >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >>
+# # >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >>
 
-model = models.build_model(num_classes, weights_path, "leaky_relu")
-model.to(device)
-optimizer = optim.Adam(model.parameters(), lr=0.001)
-run(model, optimizer, "adam", restarts=1, add_noise=False)
+# model = models.build_model(num_classes, weights_path, "leaky_relu")
+# model.to(device)
+# optimizer = optim.Adam(model.parameters(), lr=0.001)
+# run(model, optimizer, "adam", restarts=1, add_noise=False)
 
-model = models.build_model(num_classes, weights_path, "leaky_relu")
-model.to(device)
-optimizer = optim.SGD(model.parameters(), lr=0.001)
-run(model, optimizer, "sgd", restarts=1, add_noise=False)
+# model = models.build_model(num_classes, weights_path, "leaky_relu")
+# model.to(device)
+# optimizer = optim.SGD(model.parameters(), lr=0.001)
+# run(model, optimizer, "sgd", restarts=1, add_noise=False)
 
-model = models.build_model(num_classes, weights_path, "leaky_relu")
-model.to(device)
-optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9, weight_decay=5e-4)
-run(model, optimizer, "agd", restarts=1, add_noise=False)
+# model = models.build_model(num_classes, weights_path, "leaky_relu")
+# model.to(device)
+# optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9, weight_decay=5e-4)
+# run(model, optimizer, "agd", restarts=1, add_noise=False)
 
-model = models.build_model(num_classes, weights_path, "leaky_relu")
-model.to(device)
-optimizer = optim.SGD(model.parameters(), lr=0.001)
-run(model, optimizer, "pgd", restarts=1, add_noise=True)
+# model = models.build_model(num_classes, weights_path, "leaky_relu")
+# model.to(device)
+# optimizer = optim.SGD(model.parameters(), lr=0.001)
+# run(model, optimizer, "pgd", restarts=1, add_noise=True)
 
-model = models.build_model(num_classes, weights_path, "leaky_relu")
-model.to(device)
-optimizer = optim.SGD(model.parameters(), lr=0.001)
-run(model, optimizer, "sgdr", restarts=3, add_noise=False)
+# model = models.build_model(num_classes, weights_path, "leaky_relu")
+# model.to(device)
+# optimizer = optim.SGD(model.parameters(), lr=0.001)
+# run(model, optimizer, "sgdr", restarts=3, add_noise=False)
 
 # >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >>
 

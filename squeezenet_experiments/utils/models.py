@@ -71,7 +71,7 @@ def build_model(num_classes, weights_path, activation="relu", verbose=False):
     features = list(model.classifier.children())[:-3]                      # Remove last 3 layers
     features.extend([nn.Conv2d(num_features, num_classes, kernel_size=1)]) # Add layers individually
     
-    if activation == "tanh": features.extend([nn.Tanh(inplace=True)])    
+    if activation == "tanh": features.extend([nn.Tanh()])    
     elif activation == "leaky_relu": features.extend([nn.LeakyReLU(inplace=True)])  
     else: features.extend([nn.ReLU(inplace=True)])
     # features.extend([nn.ReLU(inplace=True)])
